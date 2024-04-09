@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    background: url(https://th.bing.com/th/id/R.deb9c4ef37b4526a65010e39df5aa12e?rik=%2b0%2fUqc3oSEIedA&riu=http%3a%2f%2f4.bp.blogspot.com%2f-GcvdqgeTCto%2fTVkcTW0jZKI%2fAAAAAAAASYo%2fYMb9g_AhtzQ%2fs1600%2fGreen-Nature-with-sunrise-wallpaper.jpeg&ehk=dCv24XIrcTirCtTHJ9x5mx8kE6UXyk8gCWKTnsmn41s%3d&risl=&pid=ImgRaw&r=0); 
+    margin: 0;
+    padding: 0;
+}
+
+canvas {
+    border: 1px solid #333;
+    background-color: gray;
+    box-shadow: 5px 5px 10px 1px #000000;
+    background: url(https://th.bing.com/th/id/R.a2c69ecef13fb970e16225422f390fc6?rik=OKYDjimXLYPOIA&riu=http%3a%2f%2fimageafter.com%2fimage.php%3fimage%3db19grounds003.jpg%26dl%3d1&ehk=dPdbeHW5r5AfIQeMsssQrDSHfASrLbB8RKld8sLirGU%3d&risl=&pid=ImgRaw&r=0);
+    background-size: cover;
+}
+
+#gameArea {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#gameCanvas {
+    background-color: #FFFFFF;
+    border: 2px solid #CCCCCC;
+}
+
+.score-container, .best-score-container {
+    margin-top: 10px;
+    font-size: 18px;
+    color: white;
+    font-size: 18px;
+}
+
+.menu {
+    margin-top: 20px;
+}
+
+.menu button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Shadow effect */
+}
+
+.menu button:hover {
+    background-color: #45a049;
+}
+
+.controls.desktop-only {
+    display: none;
+}
+    .control-row {
+        display: none;
+    }
+
+
+.spacer::after {
+  content: " [Space]";
+}
+
+@media only screen and (max-width: 768px) {
+    .controls {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .control-row {
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 10px;
+    }
+
+.controls button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-left: 11px;
+    margin-top: 11px;
+    transition: background-color 0.3s, transform 0.1s; 
+    border-radius: 10px;
+    box-shadow: 0 5px #2E8B57; 
+}
+
+.controls button:active {
+    background-color: #45a049;
+    transform: translateY(3px); 
+    box-shadow: 0 2px #2E8B57;
+}
+.three-d-text {
+    font-size: 40px;
+    font-weight: bold; 
+    text-transform: uppercase; 
+    color: #ffffff; 
+    text-shadow: 1px 1px 0px #333333, 
+                 2px 2px 0px #333333, 
+                 3px 3px 0px #333333; 
+}

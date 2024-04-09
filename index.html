@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="icon" href="snake.gif" type="image/gif">
+</head>
+<body>
+    <div id="gameArea">
+        <canvas id="gameCanvas" width="400" height="400"></canvas>
+        <img id="gameStartAnimation" src="snake.gif" style="display: none;">
+
+        <div class="score-container">
+            Score: <span class="score">0</span>
+        </div>
+
+        <div class="best-score-container">
+            Best score: <span class="best-score">0</span>
+        </div>
+
+        <div class="menu">
+            <button class="butt">pause <br><span class="spacer"></button>
+        </div>
+
+    </div>
+
+    <div class="controls">
+
+        <div class="control-row">
+            <button id="up">Up</button>
+        </div>
+        
+        <div class="control-row">
+            <button id="left">Left</button>
+            <button id="down">Down</button>
+            <button id="right">Right</button>
+        </div>
+        
+    </div>
+    <script src="script.js"></script>
+    <script src="mobile.js"></script>
+</body>
+</html>
